@@ -47,6 +47,10 @@ header#header {
 			color: #fff;
 			padding: .35em 2em;
 			font-size: 1.15em;
+
+			a {
+				color: #fff;
+			}
 		}
 
 		li:first-child {
@@ -54,3 +58,33 @@ header#header {
 		}
 	}
 }
+
+
+footer#footer {
+	width: 100%;
+	display: block;
+	padding-top: 14em;
+	padding-bottom: 6em;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #acd9ee 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#acd9ee)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#acd9ee 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#acd9ee 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#acd9ee 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#acd9ee 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#acd9ee',GradientType=0 ); /* IE6-9 */
+
+	p {
+		color: #fff;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		text-align: center;
+	}
+
+}
+
+
+
+
+
+
